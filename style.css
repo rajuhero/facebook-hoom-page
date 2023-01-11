@@ -1,0 +1,49 @@
+header{
+font-size: 15px;
+width: 800px;
+
+}
+.nav{
+    background-color: aqua;
+}
+span{
+    font-size: 20px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.icon i{
+margin: 10px;
+}
+.nav-item li{
+
+display: inline-block;
+list-style:none;
+
+
+}
+.nav-item li:hover{
+border: 1px solid sienna;
+
+}
+.nav-item li a{
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* login section */
+
+.login-item{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 100px;
+}
+.login-btn{
+    width: 120px;
+    background-color: darkgoldenrod;
+    color: #fff;
+}
